@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  background-color: #ff0000;
+  height: 60px;
+  padding-left: 5px;
+}
+h1 {
+  margin: 0;
+  padding: 5px 0px;
+  color: #ffffff;
+}
+.welcome {
+  background-color: #FFFFCB;
+  border: 3px dashed #333;
+  padding: 0px 10px;
+}
+.item-name {
+  font-weight: bold;
+  float: left;
+}
+.item-price {
+  font-weight: bold;
+  float: right;
+}
+.item-desc {
+  font-style: italic;
+  clear: both;
+}
+.menu-item {
+  margin-bottom: 15px;
+}
+.menu-section h2 {
+  border-bottom: 3px solid #999;
+  padding-bottom: 5px;
+}
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+.wrapper-main {
+  background: #fff url(giacomo-bg.png) top left repeat-y;
+}
+main {
+  width: 528px;
+  float: left;
+  margin-top: 30px;
+
+}
+.sidebar {
+  width: 222px;
+  float: left;
+  margin-left: 30px;
+  padding: 10px;
+  height: 100%;
+}
+.hours {
+  list-style: none;
+  padding: 0;
+  font-size: 0.8rem;
+}
+.hours span {
+  float: right;
+}
+.map {
+  border: 1px solid #333;
+  margin-top: 10px;
+}
